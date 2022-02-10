@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Oswald:wght@200;700&display=swap');
+
+/* variables inside it will be available to all relative web pages */
+:root {
+    --yellow: #FFBB30;
+    --black: #242424;
+    --grey: #818181;
+    --white: #FFFFFF
+}
+
+/* for everything: to avoid different browsers different defaults */
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+
+img {
+    display: block;
+    height: 150px;
+    width: 150px;
+    /*
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    */
+    margin: 30px auto;
+}
+
+body {
+    height: 100%;
+    background-color: var(--yellow);
+    font-family: "Oswald", sans-serif;
+}
+
+.text-container {
+    width: 60%;
+    display: block;
+    margin: 0 auto;
+}
+
+.banner {
+    background-color: var(--white);
+    padding-bottom: 30px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+    font-size: 90px;
+    text-align: center;
+    color: var(--black);
+}
+
+p {
+    color: var(--grey);
+    text-align: right;
+    font-size: 27px;
+    font-weight: 200;
+}
